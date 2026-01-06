@@ -1,0 +1,16 @@
+<h2>Admin Panel</h2>
+
+<form method="POST" action="/admin/login">
+  <input name="username" placeholder="Username" />
+  <input type="password" name="password" placeholder="Password" />
+  <button>Login</button>
+</form>
+
+<hr>
+
+<form method="POST" action="/admin/create">
+  <input name="title" placeholder="Post Title" required />
+  <input name="category" placeholder="Category" />
+  <textarea name="content" rows="15" placeholder="PASTE FULL HTML"></textarea>
+  <button>Publish</button>
+</form>
